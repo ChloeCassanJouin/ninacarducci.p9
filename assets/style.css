@@ -2,6 +2,13 @@ body {
 	max-width: 1920px;
 	margin: auto;
 }
+
+@font-face {
+	font-family: 'Inter';
+	font-display: swap;
+	src: url('https://fonts.gstatic.com/s/inter/v12/UcCO3FwrVkhTtLfwAwr-RNC_gw.woff2') format('woff2');
+  }
+
 * {
 	font-family: 'Inter';
 	font-style: normal;
@@ -91,9 +98,10 @@ body {
 	font-size: 14px;
 }
 
-#gallery {
-	/*	min-height: 100vh; */
-}
+/* #gallery {
+	min-height: 100vh;
+} */
+ 
 .title{
 	text-align: center;
 	padding-block: 2em;
