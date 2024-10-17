@@ -3,12 +3,6 @@ body {
 	margin: auto;
 }
 
-@font-face {
-	font-family: 'Inter';
-	font-display: swap;
-	src: url('https://fonts.gstatic.com/s/inter/v12/UcCO3FwrVkhTtLfwAwr-RNC_gw.woff2') format('woff2');
-  }
-
 * {
 	font-family: 'Inter';
 	font-style: normal;
@@ -47,6 +41,11 @@ body {
 
 .social-link img {
 	width: 20px;
+}
+
+.d-block {
+	max-width: 100%;
+	height: auto;
 }
 
 #about {
@@ -101,7 +100,7 @@ body {
 /* #gallery {
 	min-height: 100vh;
 } */
- 
+
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -111,7 +110,7 @@ body {
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #BEB45A;
+	background-color: #1C6474;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
