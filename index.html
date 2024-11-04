@@ -95,20 +95,116 @@
 </div>
 <div id="gallery">
 	<h2 class="title">Portfolio</h2> <!-- Change to h2 for consistency with sections -->
+	BP
+	peux tu me redonner la div complete modifiée s'il te plait?
+	
+	
+	Voici la div complète avec les modifications pour optimiser les images :
+	
+	html
+	
+	Copy
 	<div class="container py-3">
-		<div class="gallery" style="display: none">
-			<img 
-				data-gallery-tag="Concert" 
-				class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-min.webp" alt="aaron-Paul" loading="lazy"/>
-			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash-min.webp" alt="ali-morshedlou" loading="lazy"/>
-			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash-min.webp" alt="jason-goodman" loading="lazy"/>
-			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash-min.webp" alt="hannah-busing" loading="lazy"/>
-			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash-min.webp" alt="ade-utnji" loading="lazy"/>
-			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash-min.webp" alt="jakob-owens" loading="lazy"/>
-			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash-min.webp" alt="nino-van" loading="lazy"/>
-			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash-min.webp" alt="austin-neill" loading="lazy"/>
-			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash-min.webp" alt="mateus-campos" loading="lazy"/>
-		</div>
+	  <div class="gallery" style="display: none">
+		<picture>
+		  <source media="(max-width: 767px)" srcset="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-min-300.webp">
+		  <source media="(max-width: 1199px)" srcset="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-min-600.webp">
+		  <img 
+			data-gallery-tag="Concert" 
+			class="gallery-item" 
+			src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-min-900.webp"
+			alt="aaron-Paul"
+			loading="lazy">
+		</picture>
+	
+		<picture>
+		  <source media="(max-width: 767px)" srcset="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash-min-300.webp">
+		  <source media="(max-width: 1199px)" srcset="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash-min-600.webp">
+		  <img
+			data-gallery-tag="Entreprises" 
+			class="gallery-item"
+			src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash-min-900.webp"
+			alt="ali-morshedlou"
+			loading="lazy">
+		</picture>
+	
+		<picture>
+		  <source media="(max-width: 767px)" srcset="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash-min-300.webp">
+		  <source media="(max-width: 1199px)" srcset="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash-min-600.webp">
+		  <img
+			data-gallery-tag="Entreprises"
+			class="gallery-item"
+			src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash-min-900.webp" 
+			alt="jason-goodman"
+			loading="lazy">
+		</picture>
+	
+		<picture>
+		  <source media="(max-width: 767px)" srcset="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash-min-300.webp">
+		  <source media="(max-width: 1199px)" srcset="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash-min-600.webp">
+		  <img
+			data-gallery-tag="Mariages"
+			class="gallery-item"
+			src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash-min-900.webp"
+			alt="hannah-busing"
+			loading="lazy">
+		</picture>
+	
+		<picture>
+		  <source media="(max-width: 767px)" srcset="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash-min-300.webp">
+		  <source media="(max-width: 1199px)" srcset="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash-min-600.webp">
+		  <img
+			data-gallery-tag="Portrait"
+			class="gallery-item"
+			src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash-min-900.webp"
+			alt="ade-utnji"
+			loading="lazy">
+		</picture>
+	
+		<picture>
+		  <source media="(max-width: 767px)" srcset="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash-min-300.webp">
+		  <source media="(max-width: 1199px)" srcset="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash-min-600.webp">
+		  <img
+			data-gallery-tag="Mariages"
+			class="gallery-item"
+			src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash-min-900.webp"
+			alt="jakob-owens"
+			loading="lazy">
+		</picture>
+	
+		<picture>
+		  <source media="(max-width: 767px)" srcset="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash-min-300.webp">
+		  <source media="(max-width: 1199px)" srcset="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash-min-600.webp">
+		  <img
+			data-gallery-tag="Portrait"
+			class="gallery-item"
+			src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash-min-900.webp"
+			alt="nino-van"
+			loading="lazy">
+		</picture>
+	
+		<picture>
+		  <source media="(max-width: 767px)" srcset="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash-min-300.webp">
+		  <source media="(max-width: 1199px)" srcset="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash-min-600.webp">
+		  <img
+			data-gallery-tag="Concert"
+			class="gallery-item"
+			src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash-min-900.webp"
+			alt="austin-neill"
+			loading="lazy">
+		</picture>
+	
+		<picture>
+		  <source media="(max-width: 767px)" srcset="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash-min-300.webp">
+		  <source media="(max-width: 1199px)" srcset="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash-min-600.webp">
+		  <img
+			data-gallery-tag="Entreprises"
+			class="gallery-item"
+			src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash-min-900.webp"
+			alt="mateus-campos"
+			loading="lazy">
+		</picture>
+	  </div>
 	</div>
 	<div class="quote">
 		<figure>
