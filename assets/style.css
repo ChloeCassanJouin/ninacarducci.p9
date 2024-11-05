@@ -75,6 +75,7 @@ body {
 
 .picture img {
 	width: 100%;
+	height: 100%;
 	/*height: auto;*/
 }
 
@@ -377,7 +378,7 @@ input[type="submit"] {
 .gallery picture {
 	position: relative;
 	width: 100%;
-	height: 0;
+	height: 100%;
 	padding-bottom: 75%; /* ratio 4:3 pour les images */
 	overflow: hidden;
 }
