@@ -93,9 +93,16 @@ body {
 	}
   }
 
-.carousel-item {
+  .carousel-item {
 	width: 100%;
-	height: 100%;
+	height: 500px; /* Définir une hauteur explicite selon la taille de l'image */
+	overflow: hidden; /* Pour éviter tout débordement d'image */
+}
+
+.carousel-item img {
+	width: 100%;
+	height: auto; /* Assurez-vous que l'image conserve son ratio d'aspect */
+	object-fit: cover; /* Pour que l'image couvre toute la zone sans déformation */
 }
 
 
