@@ -97,7 +97,8 @@
 							 class="d-block w-100" 
 							 alt="ryoji-iwata" 
 							 width="1920" 
-							 height="1080">
+							 height="1080"
+							 loading="lazy">
 					  </picture>
 					</div>
 					
@@ -158,7 +159,7 @@
 				<picture>
 					<source media="(max-width: 600px)" srcset="assets/images/nina-600-min.webp" width="600" height="400">
 					<source media="(max-width: 1200px)" srcset="assets/images/nina-1200-min.webp" width="1200" height="800">
-					<img src="assets/images/nina-min.webp" alt="Nina"  width="1920" height="1080" loading="lazy">
+					<img src="assets/images/nina-min.webp" alt="Nina" width="1920" height="1080" loading="lazy">
 				</picture>
 			</div>
 			<div id="about-me">
@@ -174,17 +175,21 @@
 			<div class="container py-3">
 				<div class="gallery" style="display: none">
 					<!-- Concert -->
-					<img  
-						loading="lazy"
-						data-gallery-tag="Concert" 
-						class="gallery-item" 
-						src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-min.webp"
-						srcset="
-							./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-600-min.webp 600w,
-							./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-1200-min.webp 1200w"
-							sizes="(max-width: 600px) 50vw, (max-width: 1200px) 100vw"
-						alt="Concert image featuring Aaron Paul"
-					/>
+					<img 
+					loading="lazy"
+					data-gallery-tag="Concert" 
+					class="gallery-item img-fluid" 
+					src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-min.webp" 
+					srcset="
+						./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-600-min.webp 600w,
+						./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-1200-min.webp 1200w,
+						./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-min.webp 1920w
+					"
+					sizes="(max-width: 600px) 50vw, (max-width: 1200px) 100vw, 1920px"
+					alt="Concert image featuring Aaron Paul" 
+					width="1920" 
+					height="1080" 
+				/>
 					<!-- Entreprises -->
 					<img 
 						loading="lazy"
