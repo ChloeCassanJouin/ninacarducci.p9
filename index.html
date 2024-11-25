@@ -7,6 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="artiste, nina carducci, Photographe, photographie, album photo, devis, évènement, edition, traitement, portefolio, concert, portrait, tarifs, bordeaux, galerie, service, mariage, entreprises">
 	<title>Nina Carducci, photographe, Bordeaux et Ile-de-France</title>
+	<link rel="preload" as="image" href="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-min.webp">
 
 	<link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" as="style">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -81,30 +82,65 @@
 					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
 				</div>
 				<div class="carousel-inner">
+					<!-- Première image : active, sans lazy-loading -->
 					<div class="carousel-item active">
-						<picture>
-							<source media="(max-width: 600px)" srcset="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-600-min.webp">
-							<source media="(max-width: 1200px)" srcset="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-1200-min.webp">
-							<img src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-min.webp" class="d-block w-100" alt="ryoji-iwata">
-						</picture>
+					  <picture>
+						<source media="(max-width: 600px)" 
+								srcset="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-600-min.webp" 
+								width="600" 
+								height="400">
+						<source media="(max-width: 1200px)" 
+								srcset="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-1200-min.webp" 
+								width="1200" 
+								height="800">
+						<img src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-min.webp" 
+							 class="d-block w-100" 
+							 alt="ryoji-iwata" 
+							 width="1920" 
+							 height="1080">
+					  </picture>
 					</div>
+					
+					<!-- Deuxième image : lazy-loading -->
 					<div class="carousel-item">
-						<picture>
-							<source media="(max-width: 600px)" srcset="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-600-min.webp">
-							<source media="(max-width: 1200px)" srcset="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-1200-min.webp">
-							<img src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-min.webp" class="d-block w-100" alt="nicholas-green" loading="lazy">
-						</picture>
-						<!--<img src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-min.webp" class="d-block w-100" alt="nicholas-green" loading="lazy">-->
+					  <picture>
+						<source media="(max-width: 600px)" 
+								srcset="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-600-min.webp" 
+								width="600" 
+								height="400">
+						<source media="(max-width: 1200px)" 
+								srcset="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-1200-min.webp" 
+								width="1200" 
+								height="800">
+						<img src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-min.webp" 
+							 class="d-block w-100" 
+							 alt="nicholas-green" 
+							 width="1920" 
+							 height="1080" 
+							 loading="lazy">
+					  </picture>
 					</div>
+				
+					<!-- Troisième image : lazy-loading -->
 					<div class="carousel-item">
-						<picture>
-							<source media="(max-width: 600px)" srcset="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-600-min.webp">
-							<source media="(max-width: 1200px)" srcset="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-1200-min.webp">
-							<img src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-min.webp" class="d-block w-100" alt="edward-cisneros" loading="lazy">
-						</picture>
-						<!--<img src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-min.webp" class="d-block w-100" alt="edward-cisneros" loading="lazy">-->
+					  <picture>
+						<source media="(max-width: 600px)" 
+								srcset="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-600-min.webp" 
+								width="600" 
+								height="400">
+						<source media="(max-width: 1200px)" 
+								srcset="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-1200-min.webp" 
+								width="1200" 
+								height="800">
+						<img src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-min.webp" 
+							 class="d-block w-100" 
+							 alt="edward-cisneros" 
+							 width="1920" 
+							 height="1080" 
+							 loading="lazy">
+					  </picture>
 					</div>
-				</div>
+				  </div>
 
 				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
 					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
