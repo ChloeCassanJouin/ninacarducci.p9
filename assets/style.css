@@ -376,6 +376,13 @@ body {
 	object-fit: cover; /* Pour que l'image couvre toute la zone sans déformation */
 }
 
+.carousel-control-next-icon, .carousel-control-prev-icon {
+	background-color: #1C6474;
+}
+
+.visually-hidden {
+	color: #1C6474;
+}
 
 #about-me {
 	flex: 2
